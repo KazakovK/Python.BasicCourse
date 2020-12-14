@@ -9,4 +9,5 @@ for el in range(0, len(user_list), 2):
         break
     user_list[el], user_list[el_next] = user_list[el_next], user_list[el]
 
+
 print(user_list)
