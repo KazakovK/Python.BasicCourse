@@ -14,6 +14,5 @@ try:
                 list_user[0] = 'Четыре'
             with open('task_4_2.txt', 'a', encoding='UTF-8') as file_object2:
                 print(f'{list_user[0]} - {list_user[1]}', file=file_object2)
-
 except IOError:
     print('Ошибка!')
