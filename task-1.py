@@ -7,6 +7,7 @@ try:
             user_list.append(el)
             print(user_list)
         file_object.writelines(user_list)
+        print('Данные записаны!')
 
 except IOError:
     print('Произошла ошибка, данные не записаны!')
