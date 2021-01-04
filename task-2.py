@@ -29,9 +29,8 @@ class Clothing:
         return self.__name
 
     @name.setter
-    def name(self,name):
+    def name(self, name):
         self.__name = name
-
 
 
 r = Clothing('Одежда')
@@ -40,10 +39,5 @@ r.add_coat(42)
 r.add_costume(2.2)
 r.add_costume(1.86)
 
-
 r.name = "Итого на пошив одежды будет затрачено: "
-print(f'{r.name} {round(r.total_expense(),2)} \n')
-
-
-
-
+print(f'{r.name} {round(r.total_expense(), 2)} \n')
